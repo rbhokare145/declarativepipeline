@@ -8,7 +8,7 @@ pipeline {
         
             steps {
             
-                echo "This is start up of declarative pipeline"
+                echo "This is start up of declarative pipeline multibranch"
                 
             }
             
