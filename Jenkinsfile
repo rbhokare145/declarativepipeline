@@ -14,8 +14,12 @@ pipeline {
         
             steps {
             
-                echo "This is start up of declarative pipeline multibranch"
-                
+                 sh '''
+                     echo "This is start up of declarative pipeline multibranch"
+                     echo "${JAVA_HOME}"
+                     echo "${M2_HOME}"
+                 '''
+                 
             }
             
          }
